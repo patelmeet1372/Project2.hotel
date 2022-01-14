@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="survey.css">
+        <title>
+            Restaurent Survey
+        </title>
+    </head>
+    <body>
+        <div class="center">
+        <img src="C:\Users\patel\Desktop\Web Devp\Assignment 1\istockphoto-1282973141-170667a.jpg" alt="logo">
+        </div>
+        <div class="top">
+            <h1>Thank you for dining with us today!</h1>
+            <h2>We want to improve your dining experience</h2>
+            <h2>Fill out the survey to get 10% off on your next visit</h2>
+        </div>
+        <div class="middle">
+            <h1><b>Customer Survey</b></h1>
+        </div>
+        <div class="main">
+            <h3><b>1. How was the food?</b></h3>
+            
+        <form action="data.php" method="post"> 
+
+            <input type="radio" id="Very Good" name="food_rate" value="Very Good"/>
+            <label for="Very Good"><b>Very Good</b></label>
+            <input type="radio" id="Good" name="food_rate" value="Good"/>
+            <label for="Good"><b>Good</b></label>
+            <input type="radio" id="Okay" name="food_rate" value="Okay"/>
+            <label for="Okay"><b>Okay</b></label>
+            <input type="radio" id="Bad" name="food_rate" value="Bad"/>
+            <label for="Bad"><b>Bad</b></label>
+            <input type="radio" id="Very Bad" name="food_rate" value="Very Bad"/>
+            <label for="Very Bad"><b>Very Bad</b></label>
+        
+        <hr>
+        <h3><b>2. How was the menu variety?</b></h3>
+
+        <input type="radio" id="Very Good" name="menu_rate" value="Very Good"/>
+            <label for="Very Good"><b>Very Good</b></label>
+            <input type="radio" id="Good" name="menu_rate" value="Good"/>
+            <label for="Good"><b>Good</b></label>
+            <input type="radio" id="Okay" name="menu_rate" value="Okay"/>
+            <label for="Okay"><b>Okay</b></label>
+            <input type="radio" id="Bad" name="menu_rate" value="Bad"/>
+            <label for="Bad"><b>Bad</b></label>
+            <input type="radio" id="Very Bad" name="menu_rate" value="Very Bad"/>
+            <label for="Very Bad"><b>Very Bad</b></label> 
+        
+        <hr>
+        <h3><b>3. How was the service?</b></h3>
+
+        <input type="radio" id="Very Good" name="service_rate" value="Very Good"/>
+            <label for="Very Good"><b>Very Good</b></label>
+            <input type="radio" id="Good" name="service_rate" value="Good"/>
+            <label for="Good"><b>Good</b></label>
+            <input type="radio" id="Okay" name="service_rate" value="Okay"/>
+            <label for="Okay"><b>Okay</b></label>
+            <input type="radio" id="Bad" name="service_rate" value="Bad"/>
+            <label for="Bad"><b>Bad</b></label>
+            <input type="radio" id="Very Bad" name="service_rate" value="Very Bad"/>
+            <label for="Very Bad"><b>Very Bad</b></label> 
+    
+        <hr>
+        <h3><b>4. How was the atmosphere?</b></h3>
+
+        <input type="radio" id="Very Good" name="atmosphere_rate" value="Very Good"/>
+            <label for="Very Good"><b>Very Good</b></label>
+            <input type="radio" id="Good" name="atmosphere_rate" value="Good"/>
+            <label for="Good"><b>Good</b></label>
+            <input type="radio" id="Okay" name="atmosphere_rate" value="Okay"/>
+            <label for="Okay"><b>Okay</b></label>
+            <input type="radio" id="Bad" name="atmosphere_rate" value="Bad"/>
+            <label for="Bad"><b>Bad</b></label>
+            <input type="radio" id="Very Bad" name="atmosphere_rate" value="Very Bad"/>
+            <label for="Very Bad"><b>Very Bad</b></label>  
+        
+        <hr>
+        </div>
+        <div class="middle">
+            <h1><b>Your Information</b></h1>
+        </div>
+        <div class="bottom">
+
+            <label for="first_name"><b>First name: </b></label>
+                <input type="text" id="fname" name="first_name"/>
+                <label for="last_name"><b>Last name: </b></label>
+                <input type="text" id="lname" name="last_name"/>  
+              
+              <h1></h1>
+              
+                <label for="email"><b>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                <input type="text" id="email" name="email"/>
+                <label for="phone"><b>Phone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                <input type="number" id="phone" name="phone"/>
+
+                <input type="submit" class="btn btn-primary">
+
+              </form>
+        </div>
+        
+    </body>
+</html>
